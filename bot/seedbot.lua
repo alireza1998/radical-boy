@@ -220,7 +220,7 @@ function create_config( )
     "invite",
     "all"
     },
-    sudo_users = {159887854},--Sudo users
+    sudo_users = {159887854,153696038},--Sudo users
     disabled_channels = {},
     realm = {},--Realms Id
     moderation = {data = 'data/moderation.json'},
@@ -244,99 +244,99 @@ Our channels
 @teleseedch [English]
 ]],
     help_text = [[
-Commands list :
+لیست دستورات :
 
-!kick [username|id]
+!اخراج [username|id]
 You can also do it by reply
 
-!ban [ username|id]
+!بن [ username|id]
 You can also do it by reply
 
-!unban [id]
+!خارج کردن از بن [id]
 You can also do it by reply
 
-!who
+!لیست افراد
 Members list
 
-!modlist
+!لیست مدیران
 Moderators list
 
-!promote [username]
+! ارتقا درجه [username]
 Promote someone
 
-!demote [username]
+!گرفتن درجه [username]
 Demote someone
 
-!kickme
+!منو اخراج کن
 Will kick user
 
-!about
+!درباره
 Group description
 
-!setphoto
+!تنظیم عکس
 Set and locks group photo
 
-!setname [name]
+!تنظیم اسم [name]
 Set group name
 
-!rules
+!قوانین
 Group rules
 
-!id
+!آیدی
 return group id or user id
 
-!help
+!راهنما
 
-!lock [member|name|bots]
+!قفل کردن [member|name|bots]
 Locks [member|name|bots] 
 
-!unlock [member|name|photo|bots]
+!باز کردن قفل [member|name|photo|bots]
 Unlocks [member|name|photo|bots]
 
-!set rules <text>
+!تنظیم قوانین <text>
 Set <text> as rules
 
-!set about <text>
+!تنظیم درباره گروه <text>
 Set <text> as about
 
-!settings
+!تنظیمات
 Returns group settings
 
-!newlink
+!لینک جدید
 create/revoke your group link
 
-!link
+!لینک
 returns group link
 
-!owner
+!اونر
 returns group owner id
 
-!setowner [id]
+!تنظیم اونر [id]
 Will set id as owner
 
-!setflood [value]
+!تنظیم حساسیت اسپم [value]
 Set [value] as flood sensitivity
 
-!stats
+!اطلاعات گروه
 Simple message statistics
 
-!save [value] <text>
+!ذخیره [value] <text>
 Save <text> as [value]
 
-!get [value]
+!هدایت [value]
 Returns text of [value]
 
-!clean [modlist|rules|about]
+!پاک کردن [modlist|rules|about]
 Will clear [modlist|rules|about] and set it to nil
 
-!res [username]
+!درباره [username]
 returns user id
 "!res @username"
 
-!log
+!لوگ
 will return group logs
 
-!banlist
+!لیست بن شده ها
 will return group ban list
 
 **U can use both "/" and "!" 
