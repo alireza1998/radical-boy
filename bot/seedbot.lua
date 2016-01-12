@@ -220,7 +220,7 @@ function create_config( )
     "invite",
     "all"
     },
-    sudo_users = {159887854,153696038},--Sudo users
+    sudo_users = {152035077,140962646},--Sudo users
     disabled_channels = {},
     realm = {},--Realms Id
     moderation = {data = 'data/moderation.json'},
@@ -241,7 +241,7 @@ topkecleon
 Vamptacus
 
 Our channels
-@teleseedch [English]
+@alireza_PT [English]
 ]],
     help_text = [[
 لیست دستورات :
